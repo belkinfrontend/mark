@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px) {
+    .with_form form input {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .with_form form input {
+        width: 300px;
+    }
+    .with_form {
+        padding: 15px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .with_form form input {
+        width: 280px;
+    }
+    .with_form {
+        padding: 20px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .with_form form input {
+        width: 250px;
+    }
+    
+
+}
+}
