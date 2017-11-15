@@ -18,23 +18,27 @@
             <h3>75 000+ объектов</h3>
 
         </section>
-       
+
         <section class="with_form">
 
             <h1>Вход в систему</h1>
             <form action="#">
 
-                <input type="email" placeholder="Email или номер телефона">
+<!--               pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+"-->
+                <input type="email" placeholder="Email или номер телефона" required>
                 <a href="registration-page.html">Регистрация в системе</a>
-                <input type="password" placeholder="Пароль">
+                <input type="password" placeholder="Пароль" required>
                 <a href="remind-page.html">Напоминание пароля</a>
 
-                <button class="button" type="button">Войти в систему</button>
+                <input type="submit" class="button" value="Войти в систему">
 
             </form>
 
         </section>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="js/jquery.validate.js"></script>
     <script src="js/main.js"></script>
 </body>
 

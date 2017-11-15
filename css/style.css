@@ -99,7 +99,7 @@ section {
     background-color: #f0f0f0;
 }
 
-.with_form form button {
+.with_form form .button {
     text-transform: uppercase;
     font-size: 18px;
     border: none;
