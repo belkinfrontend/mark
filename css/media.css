@@ -1,11 +1,11 @@
 @media screen and (max-width: 600px) {
-    .with_form form input {
+    .with_form form input, .text {
         width: 360px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .with_form form input {
+    .with_form form input, .text, .button {
         width: 300px;
     }
     .with_form {
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 360px) {
-    .with_form form input {
+    .with_form form input, .text, .button {
         width: 280px;
     }
     .with_form {
@@ -23,9 +23,16 @@
 }
 
 @media screen and (max-width: 320px) {
-    .with_form form input {
+    .with_form form input, .text {
+        width: 210px;
+    }
+    .with_form form .button {
         width: 250px;
     }
+    .with_form h1 {
+        font-size: 40px;
+    }
+    
     
 
 }
