@@ -1,7 +1,12 @@
 $(document).ready(function () {
     //alert('Ваша версия jQuery ' + jQuery.fn.jquery);
 
-    $(function () {
-        $('#form').validate();
+    $(document).ready(function () {
+        $('form').validate({
+            submitHandler: function () {
+                location.href = form.attr('action');
+            }
+        });
     });
+
 });

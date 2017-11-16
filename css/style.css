@@ -125,4 +125,12 @@ section {
     width: 500px;
     text-align: justify;
     margin: 10px auto;
+    
+}
+
+
+.error {
+    color: red;
+    margin: 10px 0;
+    
 }
